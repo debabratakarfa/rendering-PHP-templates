@@ -9,13 +9,18 @@ class PRT {
 
 	protected static $file_path;
 
+	/**
+	 * PRT constructor.
+	 *
+	 * @param $file_path
+	 */
 	public function __construct() {
 
-        global $file_path;
+		global $file_path;
 
-        $this->file_path = $file_path;
+		$this->file_path = $file_path;
 
-    }
+	}
 
 	/**
 	 * Find and rendering a template with variables of PHP file
