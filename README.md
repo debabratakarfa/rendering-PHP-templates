@@ -1,1 +1,2 @@
-# rendering-PHP-templates
+# Rendering PHP Templates Class
+
