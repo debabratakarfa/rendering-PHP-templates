@@ -34,7 +34,7 @@ class PRT {
 
 		if ( $file_path ){
 
-			$output = $this->render_template( $file_path, $variables );
+			$output = self::render_template( $file_path, $variables );
 
 		}
 
@@ -50,7 +50,7 @@ class PRT {
 	 *
 	 * @return string
 	 */
-	public function render_template(){
+	public static function render_template(){
 
 		ob_start();
 
