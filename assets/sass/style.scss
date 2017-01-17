@@ -1,0 +1,34 @@
+/**
+ * Styling Template file
+ */
+
+#top {
+	width: 960px;
+	test-algin: center;
+	margin: 0 auto;
+
+	a img {
+		display:block;
+		margin:auto;
+	}
+
+	.wrapper {
+		display:block;
+		width:100%;
+		margin:0;
+		padding:0;
+		text-align:left;
+	}
+
+	#footer {
+
+		.fl_left {
+			float:left;
+		}
+
+		.fl_right {
+			float:right;
+		}
+
+	}
+}

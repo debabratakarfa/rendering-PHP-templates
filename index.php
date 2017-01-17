@@ -15,6 +15,7 @@ $file_path = PRT_DISPLAY_ROOT . '/template/demo.php';
 
 echo PRT::render( $file_path, array(
 	  'name' => 'Test',
+	  'logo_image_url' => './assets/images/test-image.jpeg',
 	) );
 
 ?>
